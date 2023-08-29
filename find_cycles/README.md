@@ -1,3 +1,5 @@
+### find_cycles
+
 find_cycles 함수는 텐서 형태의 edge_index을 인자로 받아서 길이 3의 순환 그래프에 속하는 노드 리스트를 만들어주는 코드이다.
 노드리스트가 [a,b,c] 형태인데 이것은 노드a에서 노드b로 에지가 향하고, 노드b에서 노드c로 에지가 향하고, 노드 c에서 노드 a로 에지가 향한다는 뜻이다.
 
@@ -24,4 +26,4 @@ Here's a breakdown of the code:
 
 9. Convert the set of cycles into a list of node lists and return it.
 
-The purpose of the code is to find all unique cycles of length 3 (triangles) in an undirected graph using a depth-first search approach. Note that this code assumes an undirected graph and cycles of length 3 specifically. If you want to find cycles of different lengths or in a directed graph, the code would need adjustments.
+The purpose of the code is to find all unique cycles of length 3 (triangles) in an multi-directed graph using a depth-first search approach. Note that this code assumes an multi-directed graph and cycles of length 3 specifically. If you want to find cycles of different lengths or in a directed graph, the code would need adjustments.
