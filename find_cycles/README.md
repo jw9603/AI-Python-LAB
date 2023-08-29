@@ -4,9 +4,9 @@ find_cycles 함수는 텐서 형태의 edge_index을 인자로 받아서 길이 
 노드리스트가 [a,b,c] 형태인데 이것은 노드a에서 노드b로 에지가 향하고, 노드b에서 노드c로 에지가 향하고, 노드 c에서 노드 a로 에지가 향한다는 뜻이다.
 
 
-This Python code defines a function `find_cycles` that takes an `edge_index` as input and finds all the cycles of length 3 (triangles) in an undirected graph represented by the edge index.
+- This Python code defines a function `find_cycles` that takes an `edge_index` as input and finds all the cycles of length 3 (triangles) in an undirected graph represented by the edge index.
 
-Here's a breakdown of the code:
+- Here's a breakdown of the code:
 
 1. Calculate the number of nodes in the graph by finding the maximum node index in the `edge_index`. The `max` function is used twice on the `edge_index` tensor to get the maximum value. The `+ 1` is added to account for 0-based indexing.
 
